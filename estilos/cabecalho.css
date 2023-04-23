@@ -10,9 +10,9 @@ body{
    margin: 0px 30px;
    height: 200vh;
    padding: 1px;
-   /* background-image: url("../media/img/FOTO\ PROF\ INGRID\ com\ logo.png");
+    background-image: url("../media/img/FOTO\ PROF\ INGRID\ com\ logo.png");
     background-repeat: no-repeat, repeat-x;
-    background-position: top right, center;*/
+    background-position: top right, center;
 }
 
 #cabecalho {
