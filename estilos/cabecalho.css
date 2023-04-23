@@ -10,17 +10,16 @@ body{
    margin: 0px 30px;
    height: 200vh;
    padding: 1px;
-    background-image: url("../media/img/FOTO\ PROF\ INGRID\ com\ logo.png");
-    background-repeat: no-repeat, repeat-x;
-    background-position: top right, center;
 }
 
 #cabecalho {
     background-color: #36477c;
     padding: 5px;
+    padding: 5px;
+    border-radius: 6px;
     
 }
-img {width: 120px;}
+img {max-width: 120px;}
 .logo {
     display: flex;
     justify-content: space-around;
@@ -64,3 +63,64 @@ img {width: 120px;}
     color: white;
     
   }
+@media only screen and (max-width: 600px) {
+
+    
+    body{
+       margin: 0px;
+       height: 250vh;
+       padding: 1px;
+    
+    }
+    
+    #cabecalho {
+        background-color: #36477c;
+        padding: 5px;
+        border-radius: 6px;
+        
+    }
+    img {max-width: 100px;}
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0px;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        margin-right: 0px;
+    }
+    .menu a{
+        color: #ffffff;
+        font-size:14px;
+        text-decoration: none;
+        margin-right: 12px;
+        transition:0.4s; 
+    }
+    
+    .menu a:hover{
+    
+        color: rgb(255, 255, 255);
+        background-color: #007bff;
+        padding: 6px 8px;
+        border-radius: 6px;
+    
+        
+      }
+      
+    .btn-menu {
+        background-color: #007bff;
+        display: inline-block;
+        padding: 6px 8px;
+        color:white;
+        border-radius: 6px;
+    }
+    .menu .btn-menu:hover{
+        background-color:  #124265;
+        color: white;
+        
+      } 
+}
